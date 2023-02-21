@@ -107,7 +107,7 @@ const ListingPage: NextPage = () => {
         <div className={styles.leftListing}>
           <iframe
             allow="fullscreen"
-            src={(listing.asset.animation_url?listing.asset.animation_url:listing.asset.image)}
+            src={(listing.asset.animation_url?listing.asset.animation_url:listing.asset.image)?.toString()}
             className={styles.mainNftImage}
             width="900"
             height="900"
