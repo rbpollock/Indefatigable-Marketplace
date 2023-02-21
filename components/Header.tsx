@@ -15,9 +15,9 @@ export default function Header() {
         <div>
           <Link href="/" passHref role="button">
             <img
-              src={`/logo.png`}
-              alt="Thirdweb Logo"
-              width={135}
+              src={`/pagedao logo.svg`}
+              alt="PageDAO Logo"
+              width={42}
               style={{ cursor: "pointer" }}
             />
           </Link>

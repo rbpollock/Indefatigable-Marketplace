@@ -19,21 +19,21 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>NFT Marketplace w/ thirdweb + Next.JS</h1>
+        <h1 className={styles.h1}>2nd Gen NFTBook Marketplace</h1>
         <p className={styles.explain}>
-          Build an NFT marketplace using{" "}
+          Built by{" "}
           <b>
             {" "}
             <a
-              href="https://thirdweb.com/"
+              href="https://pagedao.org"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.purple}
             >
-              thirdweb
+              PageDAO
             </a>
           </b>{" "}
-          to list your ERC721 and ERC1155 tokens for auction or for direct sale.
+          w/ thirdweb + Next.JS to list your ERC721 and ERC1155 tokens for auction or for direct sale.
         </p>
 
         <hr className={styles.divider} />
