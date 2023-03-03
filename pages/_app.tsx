@@ -7,7 +7,6 @@ import Header from "../components/Header";
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Polygon;
 
-// todo: dylan to update this stuff
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider desiredChainId={activeChainId}>
