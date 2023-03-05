@@ -26,14 +26,6 @@ const Home: NextPage = () => {
         resiliency, community-building, creativity, innovation, egalitarianism, improvisation, and humanism.
         </p>
 
-        <hr className={styles.divider} />
-
-        <div style={{ marginTop: 32, marginBottom: 32 }}>
-          <Link href="/create" className={styles.mainButton} style={{ textDecoration: "none" }}>
-            Create A Listing
-          </Link>
-        </div>
-
         <div className="main">
           {
             // If the listings are loading, show a loading message
@@ -72,6 +64,14 @@ const Home: NextPage = () => {
               </div>
             )
           }
+        </div>
+
+        <hr className={styles.divider} />
+
+        <div style={{ marginTop: 32, marginBottom: 32 }}>
+          <Link href="/create" className={styles.mainButton} style={{ textDecoration: "none" }}>
+            Create A Listing
+          </Link>
         </div>
       </div>
     </>

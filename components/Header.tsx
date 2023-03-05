@@ -14,7 +14,7 @@ export default function Header() {
       <div className={styles.left}>
         <div>
           <Link href="/" passHref role="button">
-            <p className={styles.h1}>Being Indefatigable</p>
+            <p className={styles.name}>Being Indefatigable</p>
           </Link>
         </div>
       </div>
