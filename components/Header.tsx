@@ -14,12 +14,7 @@ export default function Header() {
       <div className={styles.left}>
         <div>
           <Link href="/" passHref role="button">
-            <img
-              src={`/pagedao logo.svg`}
-              alt="PageDAO Logo"
-              width={42}
-              style={{ cursor: "pointer" }}
-            />
+            <p className={styles.h1}>Being Indefatigable</p>
           </Link>
         </div>
       </div>

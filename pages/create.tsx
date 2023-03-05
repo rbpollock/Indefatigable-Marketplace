@@ -79,7 +79,7 @@ const Create: NextPage = () => {
         assetContractAddress: contractAddress, // Contract Address of the NFT
         buyoutPricePerToken: price, // Maximum price, the auction will end immediately if a user pays this price.
         currencyContractAddress: NATIVE_TOKEN_ADDRESS, // NATIVE_TOKEN_ADDRESS is the crpyto curency that is native to the network. i.e. Goerli ETH.
-        listingDurationInSeconds: 60 * 60 * 24 * 7, // When the auction will be closed and no longer accept bids (1 Week)
+        listingDurationInSeconds: 60 * 60 * 24 * 7 * 24, // When the auction will be closed and no longer accept bids (1 Week)
         quantity: 1, // How many of the NFTs are being listed (useful for ERC 1155 tokens)
         reservePricePerToken: 0, // Minimum price, users cannot bid below this amount
         startTimestamp: new Date(), // When the listing will start

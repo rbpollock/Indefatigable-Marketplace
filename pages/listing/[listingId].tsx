@@ -4,6 +4,7 @@ import {
   useNetworkMismatch,
   useListing,
   useContract,
+  ThirdwebNftMedia,
 } from "@thirdweb-dev/react";
 import {
   ChainId,
@@ -105,12 +106,8 @@ const ListingPage: NextPage = () => {
     <div className={styles.container} style={{}}>
       <div className={styles.listingContainer}>
         <div className={styles.leftListing}>
-          <iframe
-            allow="fullscreen"
-            src={(listing.asset.animation_url?listing.asset.animation_url:listing.asset.image)?.toString()}
+        <img src={listing.asset.image?.toString()}
             className={styles.mainNftImage}
-            width="900"
-            height="900"
           />
         </div>
 

@@ -19,21 +19,11 @@ const Home: NextPage = () => {
       {/* Content */}
       <div className={styles.container}>
         {/* Top Section */}
-        <h1 className={styles.h1}>NFT University Press NFTBook Marketplace</h1>
+        <h1 className={styles.h1}>Hi, I'm Indefatigable.</h1>
         <p className={styles.explain}>
-          Built by{" "}
-          <b>
-            {" "}
-            <a
-              href="https://nftuniversitypress.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.purple}
-            >
-              NFT University Press
-            </a>
-          </b>{" "}
-          w/ PageDAO + thirdweb + Next.JS to list your ERC721 and ERC1155 tokens for auction or for direct sale.
+        I hopped into crypto in September 2021, 
+        and since then I've built, collected, and created things that align with my interests and passions: 
+        resiliency, community-building, creativity, innovation, egalitarianism, improvisation, and humanism.
         </p>
 
         <hr className={styles.divider} />
